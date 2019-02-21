@@ -120,7 +120,8 @@ class Repair extends Common
     {
         if (request()->isGet()) {
             $type_list = \app\admin\model\Type::where('type', 0)->where('hide', 0)->select();
-            $id_type   = \app\admin\model\RepairList::where('id',input('id'))->find()->types->title;
+            $r=new \app\admin\model\RepairList();
+            $id_type   = $r->where('id', input('id'))->find()->type;
             session('list_id', input('id'));
             $this->assign('list', $type_list);
             $this->assign('type', $id_type);

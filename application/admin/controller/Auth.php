@@ -11,7 +11,7 @@ class Auth extends Controller
 {
     public function initialize()
     {
-        if(input('key')!='caucins'){
+        if(input('key')!='caucins' && !session('admin_auth')){
             $this->error('error');
         }
     }

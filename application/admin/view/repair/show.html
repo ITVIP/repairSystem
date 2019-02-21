@@ -12,9 +12,11 @@
                     <button id="btn_add" type="button" class="btn btn-default">
                         <span class="glyphicon glyphicon-plus" aria-hidden="true"></span>新增
                     </button>
+                    {if session('user_type')!=2}
                     <button id="btn_delete" type="button" class="btn btn-default">
                         <span class="glyphicon glyphicon-remove" aria-hidden="true"></span>删除
                     </button>
+                    {/if}
                     <button  id="btn_print" type="button" class="btn btn-default">
                         <span class="glyphicon glyphicon-print" aria-hidden="true"></span>表格
                     </button>

@@ -1,0 +1,130 @@
+.chat-element img.img-circle, .dropdown-messages-box img.img-circle {
+    width: 38px;
+    height: 38px;
+}
+.img-circle {
+    border-radius: 50%;
+}
+.m-b-xs {
+    margin-bottom: 5px;
+}
+.text-navy {
+    color: #23b7e5;
+}
+.chat-element:first-child {
+    margin-top: 0;
+}
+.chat-activity-list .chat-element {
+    border-bottom: 1px solid #e7eaec;
+}
+.chat-element, .media-body {
+    overflow: hidden;
+}
+.chat-element, .chat-element .media {
+    margin-top: 15px;
+}
+.chat-element {
+    padding-bottom: 15px;
+}
+.feed-element, .media-body {
+    overflow: hidden;
+}
+.sidebard-panel .feed-element, .media-body, .sidebard-panel p {
+    font-size: 12px;
+}
+.media-body {
+    display: block;
+    width: auto;
+}
+.feed-element, .media-body {
+    overflow: hidden;
+}
+.sidebard-panel .feed-element, .media-body, .sidebard-panel p {
+    font-size: 12px;
+}
+.media-body {
+    display: block;
+    width: auto;
+    padding-left: 10px;
+}
+.chat-element, .media-body {
+    overflow: hidden;
+}
+.container{
+    height: 100%;
+}
+.choice{
+    margin-top: 9%;
+}
+.choice_choice{
+    color: #000;
+    font-size: 40px;
+    line-height: 45px;
+    font-weight: normal;
+    margin-bottom: 30px;
+}
+.choice_tips{
+    color: #999;
+    font-size: 20px;
+    font-weight: normal;
+    line-height: 1.625;
+    margin-bottom: 35px;
+}
+body{
+    background-color: #F5F5F5;
+}
+.zjbx{
+    width: 170px;
+    padding: 5px 18px 19px;
+    max-width: 180px;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 0;
+    border-radius: 10px;
+    background: #4fd2c2;
+    margin-right: 30px;
+    color: white;
+    height: 48px;
+}
+#select{
+    margin: 10px 0px;
+}
+.zjjj{
+    width: 170px;
+    padding: 5px 18px 19px;
+    max-width: 180px;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 0;
+    border-radius: 10px;
+    background: #6562a7;
+    margin-right: 30px;
+    color: white;
+    height: 48px;
+
+}
+.navbar{
+    background-color: white;
+    height: 40px;
+    line-height: 40px;
+}
+button i{
+    margin: 0 10px 0 0;
+    padding-top: 2px;
+    vertical-align: middle;
+}
+textarea{
+    width: 100%
+}
+.copyright{
+    width: 100%;
+    background: #111;
+    font-size: 13px;
+    text-align: center;
+    color: #555555;
+    padding-top: 28px;
+    padding-bottom: 28px;
+    border-top: 1px solid #303030;
+}
